@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio JS 1</title>
+    <script src="ejercicio1.js"></script>
+    <style>
+        input, select {
+            display: block;
+        }
+        input {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <input id="array" placeholder="Introduzca el arreglo (Ej: 1,2,3,4)"/>
+    <input id="key" placeholder="Introduzca la llave"/>
+    <select id="cipher">
+        <option value="encrypt">Cifrar</option>
+        <option value="decrypt">Decifrar</option>
+    </select>
+    <button onclick="run()">Correr</button>
+    <p id="demo"></p>
+</body>
+</html>
